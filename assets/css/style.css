@@ -166,6 +166,7 @@ section.block { padding: 3.5rem 0; }
 .funnel { background: linear-gradient(120deg, var(--navy-deep) 0%, var(--navy) 55%, #31437f 100%); border-radius: 26px; color: #fff; padding: 2.8rem 2rem; display: grid; gap: 1.6rem; align-items: center; position: relative; overflow: hidden; }
 .funnel::after { content: ""; position: absolute; inset: 0; background: radial-gradient(480px 280px at 90% 10%, rgba(194,148,69,.5), transparent 65%); pointer-events: none; }
 @media (min-width: 900px) { .funnel { grid-template-columns: 1.4fr 1fr; padding: 3rem 3rem; } }
+@media (min-width: 900px) { .funnel.funnel-solo { grid-template-columns: 1fr; } }
 .funnel h2 { color: #fff; }
 .funnel p { color: #ddd5bd; }
 .funnel img { border-radius: 16px; box-shadow: 0 14px 34px rgba(0,0,0,.3); position: relative; z-index: 1; }
