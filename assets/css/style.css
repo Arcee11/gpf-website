@@ -105,11 +105,11 @@ section.block { padding: 3.5rem 0; }
   .main-nav > ul > li > a, .main-nav .nav-group-label { padding: 0.6rem 0.7rem; }
   .nav-group-label { cursor: default; font-size: 0.95rem; letter-spacing: 0; text-transform: none; color: var(--navy); font-family: var(--font-display); }
   .dropdown-panel {
-    display: none; position: absolute; top: 100%; left: 0; min-width: 300px;
+    display: block; visibility: hidden; opacity: 0; pointer-events: none; position: absolute; top: 100%; left: 0; min-width: 300px;
     background: #fff; border-radius: 14px; box-shadow: var(--shadow);
     border: 1px solid rgba(194,148,69,.25); padding: 0.5rem; list-style: none; margin: 0;
   }
-  .dropdown:hover .dropdown-panel, .dropdown:focus-within .dropdown-panel { display: block; }
+  .dropdown:hover .dropdown-panel, .dropdown:focus-within .dropdown-panel { visibility: visible; opacity: 1; pointer-events: auto; }
   .dropdown-panel a { padding: 0.65rem 0.9rem; border-radius: 10px; font-size: 0.95rem; }
   .dropdown-panel a:hover { background: var(--cream); }
   .main-nav .sub { display: none; }
@@ -255,8 +255,9 @@ ul.checks li::before { content: "✓"; position: absolute; left: 0; top: 0.45rem
 .event-date .m { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-soft); }
 .event-date .d { font-size: 1.9rem; font-weight: 800; line-height: 1; }
 .partner-row { display: flex; flex-wrap: wrap; gap: 1.4rem; align-items: center; justify-content: center; }
-.partner-chip { background: #fff; border: 1px solid rgba(194,148,69,.25); border-radius: 999px; padding: 0.8rem 1.6rem; font-family: var(--font-display); font-weight: 700; color: var(--navy); box-shadow: var(--shadow); text-decoration: none; display: inline-flex; align-items: center; gap: 0.6rem; }
-.partner-chip img { height: 34px; width: auto; }
+.partner-chip { background: #fff; border: 1px solid rgba(194,148,69,.25); border-radius: 999px; padding: 0.8rem 1.6rem; font-family: var(--font-display); font-weight: 700; color: var(--navy); box-shadow: var(--shadow); text-decoration: none; display: inline-flex; align-items: center; gap: 0.6rem; min-height: 58px; }
+.partner-chip img { height: 26px; width: auto; }
+.program-cards .card img.rounded { height: 190px; width: 100%; object-fit: cover; }
 .skip-link { position: absolute; left: -9999px; }
 .skip-link:focus { left: 1rem; top: 1rem; z-index: 99; background: #fff; padding: 0.6rem 1rem; border-radius: 8px; }
 .legal-body h2 { font-size: 1.35rem; margin-top: 2rem; }
