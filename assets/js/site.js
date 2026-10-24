@@ -45,8 +45,7 @@
     return "" +
       '<div class="wrap header-inner">' +
       '<a class="brand" href="index.html" aria-label="The Guided Pathway Foundation home">' +
-      '<img src="assets/img/logo.jpg" alt="The Guided Pathway Foundation lighthouse logo">' +
-      '<span class="brand-name">The Guided Pathway<small>FOUNDATION</small></span>' +
+      '<img class="brand-wide" src="assets/img/logo-horizontal.png" alt="The Guided Pathway Foundation logo">' +
       "</a>" +
       '<button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
       '<nav class="main-nav" aria-label="Main navigation"><ul>' + items + "</ul></nav>" +
@@ -62,7 +61,7 @@
     return "" +
       '<div class="wrap footer-grid">' +
       '<div>' +
-      '<div class="footer-brand"><img src="assets/img/logo.jpg" alt="The Guided Pathway Foundation logo"><span>The Guided Pathway<br>Foundation</span></div>' +
+      '<div class="footer-brand"><span class="brand-panel"><img class="brand-wide-footer" src="assets/img/logo-horizontal.png" alt="The Guided Pathway Foundation logo"></span></div>' +
       "<p>Free emotional intelligence tools for families and communities. We work in the space before the storm, building resilience, connection, and strength from an already good place.</p>" +
       '<div class="social-row">' +
       '<a href="https://www.facebook.com/guidedpathwayfoundation" aria-label="Facebook" target="_blank" rel="noopener">f</a>' +
@@ -91,8 +90,7 @@
       '<button class="btn btn-gold" type="submit">Join</button>' +
       "</form>" +
       '<p class="form-note" style="color:#a9a290">Cape Coral, Florida and Las Vegas, Nevada<br>' +
-      '<a href="mailto:info@theguidedpathwayfoundation.com">info@theguidedpathwayfoundation.com</a><br>' +
-      '<a href="tel:+12392239809">(239) 223-9809</a></p>' +
+      '<a href="mailto:info@theguidedpathwayfoundation.com">info@theguidedpathwayfoundation.com</a></p>' +
       "</div>" +
       "</div>" +
       '<div class="wrap footer-bottom">' +
