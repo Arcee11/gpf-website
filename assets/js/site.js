@@ -89,7 +89,7 @@
       '<input type="email" name="email" placeholder="Your email address" aria-label="Email address" required>' +
       '<button class="btn btn-gold" type="submit">Join</button>' +
       "</form>" +
-      '<p class="form-note" style="color:#a9a290">Cape Coral, Florida and Las Vegas, Nevada<br>' +
+      '<p class="form-note" style="color:#5f6874">Cape Coral, Florida and Las Vegas, Nevada<br>' +
       '<a href="mailto:info@theguidedpathwayfoundation.com">info@theguidedpathwayfoundation.com</a></p>' +
       "</div>" +
       "</div>" +
