@@ -64,8 +64,8 @@
       '<div class="footer-brand"><span class="brand-panel"><img class="brand-wide-footer" src="assets/img/logo-horizontal.png" alt="The Guided Pathway Foundation logo"></span></div>' +
       "<p>Free emotional intelligence tools for families and communities. We work in the space before the storm, building resilience, connection, and strength from an already good place.</p>" +
       '<div class="social-row">' +
-      '<a href="https://www.facebook.com/guidedpathwayfoundation" aria-label="Facebook" target="_blank" rel="noopener">f</a>' +
-      '<a href="https://www.instagram.com/theguidedpathwayfoundation" aria-label="Instagram" target="_blank" rel="noopener">ig</a>' +
+      '<a href="https://www.facebook.com/guidedpathwayfoundation" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>' +
+      '<a href="https://www.instagram.com/theguidedpathwayfoundation" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>' +
       "</div>" +
       "</div>" +
       "<div><h4>Explore</h4><ul class=\"footer-links\">" +
@@ -89,7 +89,7 @@
       '<input type="email" name="email" placeholder="Your email address" aria-label="Email address" required>' +
       '<button class="btn btn-gold" type="submit">Join</button>' +
       "</form>" +
-      '<p class="form-note" style="color:#5f6874">Cape Coral, Florida and Las Vegas, Nevada<br>' +
+      '<p class="form-note" style="color:#a9a290">Cape Coral, Florida and Las Vegas, Nevada<br>' +
       '<a href="mailto:info@theguidedpathwayfoundation.com">info@theguidedpathwayfoundation.com</a></p>' +
       "</div>" +
       "</div>" +
