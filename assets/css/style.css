@@ -233,7 +233,7 @@ details.acc .acc-body { padding: 0 1.3rem 1.3rem; color: var(--ink-soft); }
 .newsletter input::placeholder { color: #a9a290; }
 .newsletter button { flex-shrink: 0; }
 .social-row { display: flex; gap: 0.7rem; margin-top: 1rem; }
-.social-row a { width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,.1); display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-family: var(--font-display); color: #fff; text-decoration: none; font-size: 0.85rem; }
+.social-row a { padding: 0.55rem 1.1rem; border-radius: 999px; background: rgba(255,255,255,.1); display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-family: var(--font-display); color: #fff; text-decoration: none; font-size: 0.85rem; }
 .social-row a:hover { background: var(--gold); color: var(--navy-deep); text-decoration: none; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.14); padding: 1.3rem 0 1.6rem; font-size: 0.86rem; color: #a9a290; display: flex; flex-wrap: wrap; gap: 0.6rem 1.6rem; justify-content: space-between; }
 .footer-bottom nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; }
