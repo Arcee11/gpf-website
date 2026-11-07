@@ -18,8 +18,7 @@
     { label: "Impact", href: "impact.html", id: "impact" },
     { label: "Events", href: "events.html", id: "events" },
     { label: "Get Involved", href: "get-involved.html", id: "get-involved" },
-    { label: "Contact", href: "contact.html", id: "contact" },
-    { label: "FAQ", href: "faq.html", id: "faq" }
+    { label: "Contact", href: "contact.html", id: "contact" }
   ];
 
   function isActive(item) {
@@ -51,7 +50,6 @@
       '<nav class="main-nav" aria-label="Main navigation"><ul>' + items + "</ul></nav>" +
       '<div class="header-cta">' +
       '<a class="btn btn-navy" href="donate.html">Donate</a>' +
-      '<a class="btn btn-gold" href="about.html">Learn More</a>' +
       "</div>" +
       "</div>";
   }
