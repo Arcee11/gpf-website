@@ -122,10 +122,12 @@ section.block { padding: 4.4rem 0; }
 }
 .hero-bg { position: absolute; inset: 0; }
 .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
-.hero-inner { position: relative; padding: 4.5rem 0 5rem; max-width: 640px; }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(100deg, rgba(255,251,240,.93) 0%, rgba(255,251,240,.80) 42%, rgba(255,251,240,.40) 68%, rgba(255,251,240,.08) 100%); }
+@media (max-width: 700px) { .hero::before { background: linear-gradient(180deg, rgba(255,251,240,.92) 0%, rgba(255,251,240,.78) 55%, rgba(255,251,240,.52) 100%); } }
+.hero-inner { position: relative; z-index: 2; padding: 4.5rem 0 5rem; max-width: 640px; }
 .hero-eyebrow { display: inline-block; font-family: var(--font-display); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-deep); margin-bottom: 0.9rem; background: rgba(255,255,255,.55); padding: 0.45em 1em; border-radius: 999px; }
-.hero p.lead { font-size: 1.15rem; color: #4a4438; max-width: 34rem; }
-.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 46px; background: var(--cream); clip-path: ellipse(60% 100% at 50% 100%); }
+.hero p.lead { font-size: 1.18rem; color: #2e2a21; font-weight: 500; max-width: 34rem; }
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 46px; background: var(--cream); clip-path: ellipse(60% 100% at 50% 100%); z-index: 3; }
 
 .page-hero { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-soft) 60%, #3d4f92 100%); color: #fff; position: relative; overflow: hidden; }
 .page-hero::before { content: ""; position: absolute; inset: 0; background: radial-gradient(600px 300px at 85% 20%, rgba(194,148,69,.45), transparent 70%); }
