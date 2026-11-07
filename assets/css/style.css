@@ -45,7 +45,7 @@ h2 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; }
 h3 { font-size: 1.3rem; font-weight: 700; }
 p { margin: 0 0 1.1em; }
 .wrap { width: min(1180px, 92%); margin: 0 auto; }
-section.block { padding: 3.5rem 0; }
+section.block { padding: 4.4rem 0; }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -161,7 +161,7 @@ section.block { padding: 3.5rem 0; }
 .stats-band h2 { color: #fff; text-align: center; }
 .stats-band .sub { text-align: center; color: #d8d2c0; max-width: 46rem; margin: 0 auto 2rem; }
 .stats-grid { display: grid; gap: 1.6rem; grid-template-columns: repeat(2, 1fr); position: relative; }
-@media (min-width: 860px) { .stats-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 860px) { .stats-grid { grid-template-columns: repeat(4, 1fr); } .stats-grid.stats-grid-3 { grid-template-columns: repeat(3, 1fr); } }
 .stat { text-align: center; }
 .stat .num { font-family: var(--font-display); font-weight: 800; font-size: 2.4rem; color: var(--gold-soft); line-height: 1; }
 .stat .lbl { font-size: 0.95rem; color: #e6dfcc; margin-top: 0.5rem; }
